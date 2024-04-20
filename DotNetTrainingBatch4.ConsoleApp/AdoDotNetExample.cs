@@ -22,7 +22,7 @@ namespace DotNetTrainingBatch4.ConsoleApp
 
 
         public void Read()
-        {           
+        {
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
             Console.WriteLine("Connection Open.");
@@ -65,6 +65,9 @@ VALUES
 
             int result = cmd.ExecuteNonQuery();
             connection.Close();
+            string message = result > 0 ? "Saving Successful." : "Saving Failed.";
+            Console.WriteLine(message);
+
         }
     }
 }
