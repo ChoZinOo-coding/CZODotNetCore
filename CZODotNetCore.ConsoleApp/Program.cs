@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DotNetTrainingBatch4.ConsoleApp;
+using CZODotNetCore.ConsoleApp;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -17,7 +17,7 @@ Console.WriteLine("Hello, World!");
 // C# => Db
 //SqlConnectionStringBuilder s=new SqlConnectionStringBuilder();
 //s.DataSource = "IT-CZT";
-//s.InitialCatalog = "DotNetTrainingBatch4";
+//s.InitialCatalog = "CZODotNetCore";
 //s.UserID = "sa";
 //s.Password = "cho123!";
 //SqlConnection connection = new SqlConnection(s.ConnectionString);

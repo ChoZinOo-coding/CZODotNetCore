@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 
 
-namespace DotNetTrainingBatch4.ConsoleApp
+namespace CZODotNetCore.ConsoleApp
 {
     internal class AdoDotNetExample
     {
         private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
             DataSource = ".",
-            InitialCatalog = "DotNetTrainingBatch4",
+            InitialCatalog = "CZODotNetCore",
             UserID = "sa",
             Password = "cho123!"
         };
