@@ -15,7 +15,7 @@ namespace CZODotNetCore.ConsoleApp
         private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
             DataSource = ".",
-            InitialCatalog = "CZODotNetCore",
+            InitialCatalog = "DotNetTrainingBatch4",
             UserID = "sa",
             Password = "cho123!"
         };
