@@ -20,8 +20,8 @@ namespace CZODotNetCore.ConsoleApp
             //Edit(1);
             //Edit(11);
 
-            Create("title", "author", "content");
-            //Update(2002, "title 2", "author 2", "content 2");
+            //Create("title", "author", "content");
+            Update(2002, "title 2", "author 2", "content 2");
             //Delete(2002);
         }
 
