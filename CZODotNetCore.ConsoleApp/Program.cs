@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CZODotNetCore.ConsoleApp.DapperExamples;
+using CZODotNetCore.ConsoleApp.EFCoreExamples;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -70,10 +71,10 @@ Console.WriteLine("Hello, World!");
 //adoDotNetExample.Edit(1002);
 //adoDotNetExample.Edit(1);
 
-DapperExample dapperExample = new DapperExample();
-dapperExample.Run();
+//DapperExample dapperExample = new DapperExample();
+//dapperExample.Run();
 
-//EFCoreExample eFCoreExample = new EFCoreExample();
-//eFCoreExample.Run();
+EFCoreExample eFCoreExample = new EFCoreExample();
+eFCoreExample.Run();
 
 Console.ReadLine();
