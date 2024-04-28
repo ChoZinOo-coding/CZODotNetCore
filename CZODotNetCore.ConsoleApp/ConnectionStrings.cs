@@ -15,7 +15,9 @@ namespace CZODotNetCore.ConsoleApp
             DataSource = ".",
             InitialCatalog = "DotNetTrainingBatch4",
             UserID = "sa",
-            Password = "cho123!"
+            Password = "cho123!",
+            TrustServerCertificate=true
+
         };
     }
 }
