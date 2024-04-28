@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CZODotNetCore.ConsoleApp;
+using CZODotNetCore.ConsoleApp.DapperExamples;
 using System;
 using System.Collections.Generic;
 using System.Data;
