@@ -1,6 +1,6 @@
 ﻿using Dapper;
-using DotNetTrainingBatch4.ConsoleApp.Dtos;
-using DotNetTrainingBatch4.ConsoleApp.Services;
+//using CZODotNetCore.ConsoleApp.Dtos;
+//using CZODotNetCore.ConsoleApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Data;
