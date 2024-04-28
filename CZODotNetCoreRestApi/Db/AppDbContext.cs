@@ -1,13 +1,13 @@
-﻿using CZODotNetCore.ConsoleApp.Dtos;
-using CZODotNetCore.ConsoleApp.Services;
+﻿
 using Microsoft.EntityFrameworkCore;
+using CZODotNetCoreRestApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CZODotNetCore.ConsoleApp.EFCoreExamples
+namespace CZODotNetCoreRestApi.Db
 {
     internal class AppDbContext : DbContext
     {
@@ -16,6 +16,6 @@ namespace CZODotNetCore.ConsoleApp.EFCoreExamples
             optionsBuilder.UseSqlServer(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
         }
 
-        public DbSet<BlogDto> Blogs { get; set; }
+        public DbSet<BlogModel> Blogs { get; set; }
     }
 }

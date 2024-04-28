@@ -1,4 +1,6 @@
-﻿using Dapper;
+﻿using CZODotNetCore.ConsoleApp.Dtos;
+using CZODotNetCore.ConsoleApp.Services;
+using Dapper;
 //using CZODotNetCore.ConsoleApp.Dtos;
 //using CZODotNetCore.ConsoleApp.Services;
 using System;

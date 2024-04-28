@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CZODotNetCore.ConsoleApp.DapperExamples;
 using CZODotNetCore.ConsoleApp.EFCoreExamples;
+using CZODotNetCore.ConsoleApp.AdoDotNetExamples;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -76,5 +77,6 @@ Console.WriteLine("Hello, World!");
 
 EFCoreExample eFCoreExample = new EFCoreExample();
 eFCoreExample.Run();
+
 
 Console.ReadLine();

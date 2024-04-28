@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 
 
-namespace CZODotNetCore.ConsoleApp
+namespace CZODotNetCore.ConsoleApp.AdoDotNetExamples
 {
     internal class AdoDotNetExample
     {

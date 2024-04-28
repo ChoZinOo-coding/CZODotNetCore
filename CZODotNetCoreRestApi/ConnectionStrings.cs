@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace CZODotNetCore.ConsoleApp
+namespace CZODotNetCoreRestApi
 {
     internal static class ConnectionStrings
     {
@@ -16,7 +16,7 @@ namespace CZODotNetCore.ConsoleApp
             InitialCatalog = "DotNetTrainingBatch4",
             UserID = "sa",
             Password = "cho123!",
-            TrustServerCertificate=true
+            TrustServerCertificate = true
 
         };
     }
