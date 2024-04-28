@@ -5,6 +5,7 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{E56E88D1-5ED6-4FBF-84C2-9A6A7E347D5A}"
 	ProjectSection(SolutionItems) = preProject
+		DotNetTrainingBatch4.sql = DotNetTrainingBatch4.sql
 		README.md = README.md
 	EndProjectSection
 EndProject
