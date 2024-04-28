@@ -15,8 +15,8 @@ namespace CZODotNetCore.ConsoleApp.EFCoreExamples
             //Read();
             //Edit(1);
             //Edit(11);
-            Create("title", "author", "content");
-            //Update(2003, "title 2", "author 2", "content 2");
+            //Create("title", "author", "content");
+            Update(2002, "title 3", "author 3", "content 3");
            // Delete(2003);
         }
 
