@@ -1,13 +1,13 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using CZODotNetCoreRestApi.Models;
+using CZODotNetCore.RestApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CZODotNetCoreRestApi.Db
+namespace CZODotNetCore.RestApi.Db
 {
     internal class AppDbContext : DbContext
     {

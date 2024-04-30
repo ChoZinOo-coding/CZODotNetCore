@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace CZODotNetCoreRestApi
+namespace CZODotNetCore.RestApi
 {
     internal static class ConnectionStrings
     {

@@ -1,9 +1,9 @@
-﻿using CZODotNetCoreRestApi.Db;
-using CZODotNetCoreRestApi.Models;
+﻿using CZODotNetCore.RestApi.Db;
+using CZODotNetCore.RestApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CZODotNetCoreRestApi.Controllers
+namespace CZODotNetCore.RestApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

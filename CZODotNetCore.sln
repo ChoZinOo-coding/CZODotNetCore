@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleApp", "CZODotNetCore.ConsoleApp\CZODotNetCore.ConsoleApp.csproj", "{6E532368-2450-44A4-8DD7-B986A2B67DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCoreRestApi", "CZODotNetCoreRestApi\CZODotNetCoreRestApi.csproj", "{72DD2241-569D-4DA0-9DE2-62D53CE0E5AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.RestApi", "CZODotNetCoreRestApi\CZODotNetCore.RestApi.csproj", "{72DD2241-569D-4DA0-9DE2-62D53CE0E5AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

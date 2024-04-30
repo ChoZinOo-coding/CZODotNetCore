@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CZODotNetCoreRestApi.Models;
+namespace CZODotNetCore.RestApi.Models;
 [Table("Tbl_Blog")]
 public class BlogModel
 {
