@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleApp", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.RestApi", "CZODotNetCore.RestApi\CZODotNetCore.RestApi.csproj", "{4874E90D-1F1D-411B-9417-6B65F1975958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.Shared", "CZODotNetCore.Shared\CZODotNetCore.Shared.csproj", "{D45BDD93-0494-4DF7-B673-4A2A400B8798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4874E90D-1F1D-411B-9417-6B65F1975958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4874E90D-1F1D-411B-9417-6B65F1975958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4874E90D-1F1D-411B-9417-6B65F1975958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45BDD93-0494-4DF7-B673-4A2A400B8798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45BDD93-0494-4DF7-B673-4A2A400B8798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45BDD93-0494-4DF7-B673-4A2A400B8798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45BDD93-0494-4DF7-B673-4A2A400B8798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
