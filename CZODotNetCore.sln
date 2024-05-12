@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleApp", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.RestApi", "CZODotNetCore.RestApi\CZODotNetCore.RestApi.csproj", "{4874E90D-1F1D-411B-9417-6B65F1975958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.Shared", "CZODotNetCore.Shared\CZODotNetCore.Shared.csproj", "{D45BDD93-0494-4DF7-B673-4A2A400B8798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.Shared", "CZODotNetCore.Shared\CZODotNetCore.Shared.csproj", "{D45BDD93-0494-4DF7-B673-4A2A400B8798}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.RestApiWithNLayer", "CZODotNetCore.RestApiWithNLayer\CZODotNetCore.RestApiWithNLayer.csproj", "{73B926D6-F3FD-411C-BD8F-4551DD636CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppHttpClient", "CZODotNetCore.ConsoleAppHttpClient\CZODotNetCore.ConsoleAppHttpClient.csproj", "{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{D45BDD93-0494-4DF7-B673-4A2A400B8798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45BDD93-0494-4DF7-B673-4A2A400B8798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D45BDD93-0494-4DF7-B673-4A2A400B8798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B926D6-F3FD-411C-BD8F-4551DD636CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B926D6-F3FD-411C-BD8F-4551DD636CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B926D6-F3FD-411C-BD8F-4551DD636CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B926D6-F3FD-411C-BD8F-4551DD636CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
