@@ -14,7 +14,7 @@ namespace CZODotNetCore.RestApiWithNLayer.Features.DreamDictionary
         private async Task<DreamDictionary> GetDataAsync()
         {
 
-            string jsonStr = await System.IO.File.ReadAllTextAsync("data.json");
+            string jsonStr = await System.IO.File.ReadAllTextAsync("DreamDictionary.json");
             var model = JsonConvert.DeserializeObject<DreamDictionary>(jsonStr);
             return model;
 
