@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.Shared", "CZO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.RestApiWithNLayer", "CZODotNetCore.RestApiWithNLayer\CZODotNetCore.RestApiWithNLayer.csproj", "{73B926D6-F3FD-411C-BD8F-4551DD636CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppHttpClient", "CZODotNetCore.ConsoleAppHttpClient\CZODotNetCore.ConsoleAppHttpClient.csproj", "{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleAppHttpClient", "CZODotNetCore.ConsoleAppHttpClient\CZODotNetCore.ConsoleAppHttpClient.csproj", "{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppHttpClientDream", "CZODotNetCore.ConsoleAppHttpClientDream\CZODotNetCore.ConsoleAppHttpClientDream.csproj", "{F70BBACC-8D74-41C9-A5BC-D5A4656A5339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70BBACC-8D74-41C9-A5BC-D5A4656A5339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70BBACC-8D74-41C9-A5BC-D5A4656A5339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70BBACC-8D74-41C9-A5BC-D5A4656A5339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70BBACC-8D74-41C9-A5BC-D5A4656A5339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
