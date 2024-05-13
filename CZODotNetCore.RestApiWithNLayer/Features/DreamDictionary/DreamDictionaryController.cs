@@ -20,7 +20,7 @@ namespace CZODotNetCore.RestApiWithNLayer.Features.DreamDictionary
 
         }
 
-        // api/LatHtaukBayDin/questions
+        // api/DreamDictionary/questions
         [HttpGet("questions")]
         public async Task<IActionResult> Questions()
         {
