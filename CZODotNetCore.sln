@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.PizzaApi", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppRefitExamples", "CZODotNetCore.ConsoleAppRefitExamples\CZODotNetCore.ConsoleAppRefitExamples.csproj", "{F2F30CE7-4269-4A53-934C-CB29BEFC6A4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.WinFormsApp", "CZODotNetCore.WinFormsApp\CZODotNetCore.WinFormsApp.csproj", "{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F2F30CE7-4269-4A53-934C-CB29BEFC6A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2F30CE7-4269-4A53-934C-CB29BEFC6A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2F30CE7-4269-4A53-934C-CB29BEFC6A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
