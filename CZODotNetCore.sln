@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.RestApiWithNL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleAppHttpClient", "CZODotNetCore.ConsoleAppHttpClient\CZODotNetCore.ConsoleAppHttpClient.csproj", "{DF11A41D-C8DB-4AEE-AC35-D1F4E24D4538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppHttpClientDream", "CZODotNetCore.ConsoleAppHttpClientDream\CZODotNetCore.ConsoleAppHttpClientDream.csproj", "{F70BBACC-8D74-41C9-A5BC-D5A4656A5339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleAppHttpClientDream", "CZODotNetCore.ConsoleAppHttpClientDream\CZODotNetCore.ConsoleAppHttpClientDream.csproj", "{F70BBACC-8D74-41C9-A5BC-D5A4656A5339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppHttpClientExamples", "CZODotNetCore.ConsoleAppHttpClientExamples\CZODotNetCore.ConsoleAppHttpClientExamples.csproj", "{DE910E71-9C13-4933-9A53-A2095A475D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleAppHttpClientExamples", "CZODotNetCore.ConsoleAppHttpClientExamples\CZODotNetCore.ConsoleAppHttpClientExamples.csproj", "{DE910E71-9C13-4933-9A53-A2095A475D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppRestClientExamples", "CZODotNetCore.ConsoleAppRestClientExamples\CZODotNetCore.ConsoleAppRestClientExamples.csproj", "{97C1B02F-DB33-4644-87E1-458E85097DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleAppRestClientExamples", "CZODotNetCore.ConsoleAppRestClientExamples\CZODotNetCore.ConsoleAppRestClientExamples.csproj", "{97C1B02F-DB33-4644-87E1-458E85097DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.PizzaApi", "CZODotNetCore.PizzaApi\CZODotNetCore.PizzaApi.csproj", "{0E65B76C-3BC3-4D02-857D-206E583E2E29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{97C1B02F-DB33-4644-87E1-458E85097DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C1B02F-DB33-4644-87E1-458E85097DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97C1B02F-DB33-4644-87E1-458E85097DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E65B76C-3BC3-4D02-857D-206E583E2E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E65B76C-3BC3-4D02-857D-206E583E2E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E65B76C-3BC3-4D02-857D-206E583E2E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E65B76C-3BC3-4D02-857D-206E583E2E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
