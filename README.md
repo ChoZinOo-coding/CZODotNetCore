@@ -22,3 +22,7 @@ SLHDotNetCore.RestApi
 2024-04-23 EFCore
 2024-04-23 ASP.NET Core Web API Blog CRUD
 ASP.NET Core Web API
+
+.net framework (1,4.8.1)
+.net core(1,3.1)
+.net (5,9)

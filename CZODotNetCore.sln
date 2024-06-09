@@ -27,9 +27,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleAppRes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.PizzaApi", "CZODotNetCore.PizzaApi\CZODotNetCore.PizzaApi.csproj", "{0E65B76C-3BC3-4D02-857D-206E583E2E29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.ConsoleAppRefitExamples", "CZODotNetCore.ConsoleAppRefitExamples\CZODotNetCore.ConsoleAppRefitExamples.csproj", "{F2F30CE7-4269-4A53-934C-CB29BEFC6A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.ConsoleAppRefitExamples", "CZODotNetCore.ConsoleAppRefitExamples\CZODotNetCore.ConsoleAppRefitExamples.csproj", "{F2F30CE7-4269-4A53-934C-CB29BEFC6A4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.WinFormsApp", "CZODotNetCore.WinFormsApp\CZODotNetCore.WinFormsApp.csproj", "{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.WinFormsApp", "CZODotNetCore.WinFormsApp\CZODotNetCore.WinFormsApp.csproj", "{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.WinFormsAppSqlInjection", "CZODotNetCore.WinFormsAppSqlInjection\CZODotNetCore.WinFormsAppSqlInjection.csproj", "{5F9F0E12-D18B-43E3-BA34-7056846C9F20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.NLayer.UI", "CZODotNetCore.NLayer.UI\CZODotNetCore.NLayer.UI.csproj", "{8642F416-0D27-4548-B133-EEEF48517120}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.NLayer.BusinessLogic", "CZODotNetCore.NLayer.BusinessLogic\CZODotNetCore.NLayer.BusinessLogic.csproj", "{580BC238-2069-4B49-BCC9-EC1A15C7210C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.NLayer.DataAccess", "CZODotNetCore.NLayer.DataAccess\CZODotNetCore.NLayer.DataAccess.csproj", "{E6F40217-6BC5-4C16-8697-E1A3F5FCF7AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CZODotNetCore.Html", "CZODotNetCore.Html", "{170EF408-91FE-4CA0-A83C-BE6B83C73A8A}"
+	ProjectSection(SolutionItems) = preProject
+		CZODotNetCore.Html\blog.js = CZODotNetCore.Html\blog.js
+		CZODotNetCore.Html\custom.js = CZODotNetCore.Html\custom.js
+		CZODotNetCore.Html\index.html = CZODotNetCore.Html\index.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +96,22 @@ Global
 		{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F09E997B-DC00-41FB-B78C-CB6A2AAEC9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9F0E12-D18B-43E3-BA34-7056846C9F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9F0E12-D18B-43E3-BA34-7056846C9F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9F0E12-D18B-43E3-BA34-7056846C9F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9F0E12-D18B-43E3-BA34-7056846C9F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8642F416-0D27-4548-B133-EEEF48517120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8642F416-0D27-4548-B133-EEEF48517120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8642F416-0D27-4548-B133-EEEF48517120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8642F416-0D27-4548-B133-EEEF48517120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580BC238-2069-4B49-BCC9-EC1A15C7210C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580BC238-2069-4B49-BCC9-EC1A15C7210C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580BC238-2069-4B49-BCC9-EC1A15C7210C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580BC238-2069-4B49-BCC9-EC1A15C7210C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F40217-6BC5-4C16-8697-E1A3F5FCF7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F40217-6BC5-4C16-8697-E1A3F5FCF7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F40217-6BC5-4C16-8697-E1A3F5FCF7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F40217-6BC5-4C16-8697-E1A3F5FCF7AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

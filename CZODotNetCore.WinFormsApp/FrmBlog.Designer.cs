@@ -36,6 +36,7 @@
             label3 = new Label();
             btnCancel = new Button();
             btnSave = new Button();
+            btnUpdate = new Button();
             SuspendLayout();
             // 
             // txtTitle
@@ -110,11 +111,25 @@
             btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += btnSave_Click;
             // 
-            // Form1
+            // btnUpdate
+            // 
+            btnUpdate.BackColor = Color.FromArgb(0, 192, 192);
+            btnUpdate.FlatStyle = FlatStyle.Flat;
+            btnUpdate.Location = new Point(231, 259);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(112, 34);
+            btnUpdate.TabIndex = 9;
+            btnUpdate.Text = "&Update";
+            btnUpdate.UseVisualStyleBackColor = false;
+            btnUpdate.Visible = false;
+            btnUpdate.Click += btnUpdate_Click;
+            // 
+            // FrmBlog
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnUpdate);
             Controls.Add(btnSave);
             Controls.Add(btnCancel);
             Controls.Add(label3);
@@ -124,7 +139,7 @@
             Controls.Add(txtAuthor);
             Controls.Add(txtTitle);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            Name = "Form1";
+            Name = "FrmBlog";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
@@ -141,5 +156,6 @@
         private Label label3;
         private Button btnCancel;
         private Button btnSave;
+        private Button btnUpdate;
     }
 }
