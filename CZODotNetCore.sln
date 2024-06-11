@@ -41,9 +41,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CZODotNetCore.NLayer.DataAc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CZODotNetCore.Html", "CZODotNetCore.Html", "{170EF408-91FE-4CA0-A83C-BE6B83C73A8A}"
 	ProjectSection(SolutionItems) = preProject
+		CZODotNetCore.Html\AddtoCart.js = CZODotNetCore.Html\AddtoCart.js
+		CZODotNetCore.Html\AddtoCartIndex.html = CZODotNetCore.Html\AddtoCartIndex.html
 		CZODotNetCore.Html\blog.js = CZODotNetCore.Html\blog.js
 		CZODotNetCore.Html\custom.js = CZODotNetCore.Html\custom.js
 		CZODotNetCore.Html\index.html = CZODotNetCore.Html\index.html
+		CZODotNetCore.Html\notiflix.html = CZODotNetCore.Html\notiflix.html
 		CZODotNetCore.Html\sweetalert.html = CZODotNetCore.Html\sweetalert.html
 	EndProjectSection
 EndProject
