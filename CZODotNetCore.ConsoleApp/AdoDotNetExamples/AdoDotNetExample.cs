@@ -10,16 +10,22 @@ using System.Threading.Tasks;
 
 namespace CZODotNetCore.ConsoleApp.AdoDotNetExamples
 {
-    internal class AdoDotNetExample
+    public class AdoDotNetExample
     {
-        private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
-        {
-            DataSource = ".",
-            InitialCatalog = "DotNetTrainingBatch4",
-            UserID = "sa",
-            Password = "cho123!"
-        };
+        //private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        //{
+        //    DataSource = ".",
+        //    InitialCatalog = "DotNetTrainingBatch4",
+        //    UserID = "sa",
+        //    Password = "cho123!"
+        //};
 
+        private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder;
+
+        public AdoDotNetExample(SqlConnectionStringBuilder sqlConnectionStringBuilder)
+        {
+            _sqlConnectionStringBuilder = sqlConnectionStringBuilder;
+        }
 
         public void Read()
         {

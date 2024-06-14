@@ -7,9 +7,16 @@ using CZODotNetCore.ConsoleApp.Dtos;
 
 namespace CZODotNetCore.ConsoleApp.EFCoreExamples
 {
-    internal class EFCoreExample
+    public class EFCoreExample
     {
-        private readonly AppDbContext db = new AppDbContext();
+        // private readonly AppDbContext db = new AppDbContext();
+
+        private readonly AppDbContext db;
+
+        public EFCoreExample(AppDbContext db)
+        {
+            this.db = db;
+        }
 
         public void Run()
         {
@@ -23,8 +30,6 @@ namespace CZODotNetCore.ConsoleApp.EFCoreExamples
 
         private void Read()
         {
-            AppDbContext db=new AppDbContext();
-
             var lst = db.Blogs.ToList();
             foreach (BlogDto item in lst)
             {
