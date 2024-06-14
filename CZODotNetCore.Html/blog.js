@@ -3,7 +3,7 @@ let blogId = null;
 
 getBlogTable();
 // testConfirmMessage();
-// testConfirmMessage2();
+ //testConfirmMessage2();
 
 function testConfirmMessage() {
     let confirmMessage = new Promise(function (success, error) {
