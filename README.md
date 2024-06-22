@@ -26,3 +26,11 @@ ASP.NET Core Web API
 .net framework (1,4.8.1)
 .net core(1,3.1)
 .net (5,9)
+
+
+MVC
+Model
+View
+Controller
+
+Controller => Processing => View(Model == Dto) => UI (cshtml)

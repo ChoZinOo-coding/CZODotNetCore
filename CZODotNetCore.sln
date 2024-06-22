@@ -58,6 +58,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CZODotNetCore.Html", "CZODo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.MinimalApi", "CZODotNetCore.MinimalApi\CZODotNetCore.MinimalApi.csproj", "{0ECAE7AE-AF3D-4810-A762-868C966CDFD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZODotNetCore.MvcApp", "CZODotNetCore.MvcApp\CZODotNetCore.MvcApp.csproj", "{9554CD8D-DF80-4365-970E-B511C39B08BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{0ECAE7AE-AF3D-4810-A762-868C966CDFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ECAE7AE-AF3D-4810-A762-868C966CDFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ECAE7AE-AF3D-4810-A762-868C966CDFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9554CD8D-DF80-4365-970E-B511C39B08BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9554CD8D-DF80-4365-970E-B511C39B08BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9554CD8D-DF80-4365-970E-B511C39B08BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9554CD8D-DF80-4365-970E-B511C39B08BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
