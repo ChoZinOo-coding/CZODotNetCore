@@ -15,6 +15,7 @@ namespace CZODotNetCore.MvcApp.Controllers
             _db = db;
         }
 
+
         public async Task<IActionResult> Index()
         {
             // select * from Tbl_Blog with (nolock)
