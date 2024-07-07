@@ -13,5 +13,16 @@ namespace CZODotNetCore.MvcChartApp.Controllers
 
             return View(model);
         }
+
+
+        public IActionResult RadialBarCustomAngleCircleChart()
+        {
+            RadialBarCustomAngleCircleChartModel model = new RadialBarCustomAngleCircleChartModel();
+            model.RadialBarSeries = new List<int> { 76, 67, 61, 90 };
+            model.RadialBarLabels = new List<string> { "Vimeo", "Messenger", "Facebook", "LinkedIn" };
+            model.RadialBarColors = new List<string> { "#1ab7ea", "#0084ff", "#39539E", "#0077B5" };
+
+            return View(model);
+        }
     }
 }
